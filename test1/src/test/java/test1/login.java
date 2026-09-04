@@ -19,6 +19,7 @@ public class login {
 		driver.get("https://www.google.com/");
 		Thread.sleep(2000);
 		driver.findElement(By.id("APjFqb")).sendKeys("Amazon");
+		//To maximize the window
 	}
 
 }
